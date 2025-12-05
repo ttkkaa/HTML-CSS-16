@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
+
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 45px;
+}
+
+.btns {
+    margin-right: 80px;
+    display: flex;
+    gap: 10px;
+    margin-top: -10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.btn1 {
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+h1 {
+    margin-top: -55px;
+    margin-left: 20px ;
+    font-size: 70px;
+}
+
+h1 span {
+    font-size: 80px;
+}
+
+.sec p {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.left {
+    position: relative;
+    background-image: url("./photo/88aac0_6acc6c3a16f14a5da0b33b4f42f4a34a~mv2.avif");
+    width: 25%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 90px;
+}
+
+.yellowCard {
+    position: absolute;
+    background-color: #F3ED59;
+    height: 150px;
+    width: 220px;
+    left: 45px;
+    top: -45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellowCard h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 19px;
+    font-size: 70px;
+}
+
+.stars {
+    display: flex;
+    font-size: 13px;
+}
+
+.yellowCard p {
+    font-size: 13px;
+}
+
+.sec1 {
+    display: flex;
+    gap: 10px;
+}
+
+.right {
+    position: relative;
+    width: 75%;
+    height: 450px;
+    background-image: url("./photo/88aac0_983644315c1740debceafeaeb132ac48~mv2.jpeg");
+    background-size: cover;
+    background-position: center;
+    top: 90px;
+}
+
+form {
+    position: absolute;
+    background-color: white;
+    width: 500px;
+    height: 420px;
+    right: 150px;
+    top: 15px;
+}
+
+form h3{
+    margin-left: 17px;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.name {
+    display: flex;
+    margin-left: 20px;
+    gap: 150px;
+}
+
+.first input, .second input {
+    margin-left: 20px;
+    width: 210px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
